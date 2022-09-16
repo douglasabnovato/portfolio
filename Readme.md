@@ -11,6 +11,7 @@
 Neste desafio você poderá criar uma página web para que seja seu portfolio e currículo. Utilizando HTML e CSS.
 
 #### 💻 Techs
+
 - Nível de dificuldade: Iniciante
 - Tecnologias: html, css
 
@@ -62,6 +63,13 @@ Com o CSS moderno, nós podemos poscionar, alinhar, ordenar e trbalhar co os ele
 
 #### 🎨 Cores
 
+- Templates de referências para ser feito
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="versão 1 do projeto" title="#Portfolio" src="./.github/template-1.jpg" width="400px">
+  <img alt="versão 1 do projeto" title="#Portfolio" src="./.github/template-2.jpg" width="400px">
+</p>  
+
 ````css
 :root {
   --body-bg-color: #22212C;
@@ -86,7 +94,6 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 - Organizando os detalhes do projeto no readme.md
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#Portfolio" src="./.github/template-1.jpg" width="400px">
   <img alt="versão 1 do projeto" title="#Portfolio" src="./.github/template-2.jpg" width="400px">
 </p>  
 

@@ -75,4 +75,4 @@ Com o CSS moderno, nós podemos poscionar, alinhar, ordenar e trbalhar co os ele
 
 Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
 
-Feito com 💜 por Douglas A B Novato. 👋 Participe da nossa [comunidade aberta](https://discord.gg/bacwY2gDCF)!
+Feito com 💜 por Douglas A B Novato. 👋 Participe da [comunidade aberta](https://discord.gg/bacwY2gDCF)!

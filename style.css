@@ -36,7 +36,7 @@ main .home-section {
     flex-direction: column;
     gap: 1.30rem;
     width: 100%;
-    max-width: 17.5vw;
+    max-width: 22vw;
     margin-block-start: 1.1vh;
     margin-inline-start: 0.5vw;
 }
@@ -62,7 +62,7 @@ main .home-section {
 
 .profile .avatar img {
     width: 100%;
-    max-width: 8vw;
+    max-width: 35%;
     height: auto;
     border-radius: 50%;
     display: block;
@@ -214,7 +214,8 @@ main .home-section {
 .experiences-list {
     margin-block-start: 2.5vh;
     margin-block-end: 2vh;
-    margin-inline-start: 2.5vw;
+    margin-inline-start: -1vw;
+    list-style:none;
 }
 
 .experiences-list .experience {
@@ -227,8 +228,8 @@ main .home-section {
 
 .experiences-list .experience ul {
     list-style: none;
-    margin-inline-start: 1.2vw;
     font-size: 1rem;
+    margin-inline-start: -1.3vw;
 }
 
 .education {
@@ -246,7 +247,8 @@ main .home-section {
 .education-list {
     margin-block-start: 2.5vh;
     margin-block-end: 2vh;
-    margin-inline-start: 2.5vw;
+    list-style: none;
+    margin-inline-start: -1vw;
 }
 
 .education-list .certification {
@@ -259,7 +261,7 @@ main .home-section {
 
 .education-list .certification ul {
     list-style: none;
-    margin-inline-start: 1.2vw;
+    margin-inline-start: -1.3vw;
     font-size: 1rem;
 }
 
@@ -268,7 +270,7 @@ main .home-section {
     flex-direction: column;
     gap: 1.35rem;
     width: 100%;
-    max-width: 80vw;
+    max-width: 77vw;
     margin-block-start: 1.1vh;
     margin-inline-start: 0.5vw;
     margin-inline-end: 1.5rem;

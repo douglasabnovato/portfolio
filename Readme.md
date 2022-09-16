@@ -25,7 +25,7 @@ Neste desafio você poderá criar uma página web para que seja seu portfolio e 
 
 4 - Compartilhe seu resultado ou tire suas dúvidas na nossa [**comunidade aberta**](https://discord.gg/bacwY2gDCF)
 
-### 💡 Conteúdos Aplicado
+### 💡 Conteúdos Aplicados
 
 Neste desafio você vai construir o seu próprio portfolio. Caso você ainda não tenha feito os cursos do Discover ou queira fazer uma revisão, segue abaixo uma lista dos cursos que podem te ajudar a resolver este desafio.
 

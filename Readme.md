@@ -56,7 +56,7 @@ Com o CSS moderno, nós podemos poscionar, alinhar, ordenar e trbalhar co os ele
 
 #### 🚀 Se desafie também
 
-- [ ] Tornando o design responsivo 
+- [ ] Tornando o design responsivo: estratégia com grid e flexbox
 - [x] Consumir a API do Github 
 
 ### 🎨 Style Guide

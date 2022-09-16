@@ -51,13 +51,13 @@ Com o CSS moderno, nós podemos poscionar, alinhar, ordenar e trbalhar co os ele
 
 #### 🚀 Requisitos para o desafio 
 
-- Os cards dos projetos deverão ser clicáveis
-- Os cards dos posts deverão ser clicláveis
+- [x] Os cards dos projetos deverão ser clicáveis
+- [x] Os cards dos posts deverão ser clicláveis
 
 #### 🚀 Se desafie também
 
-- *Tornando o design responsivo*
-- *Consumir a API do Github*
+- [ ] Tornando o design responsivo: estratégia com grid e flexbox
+- [x] Consumir a API do Github 
 
 ### 🎨 Style Guide
 
@@ -81,9 +81,9 @@ Com o CSS moderno, nós podemos poscionar, alinhar, ordenar e trbalhar co os ele
 
 #### 🎨 Fontes
 
-- *font-family: Merriweather Sans* 
-- *font-weight: 400, 500 e 700*
-- *Você pode encontrar a fonte no [Google Fonts](https://fonts.google.com/specimen/Merriweather+Sans?query=Merriweather+Sans)*
+- [x] font-family: Merriweather Sans 
+- [x] font-weight: 400, 500 e 700 
+- [x] Você pode encontrar a fonte no [Google Fonts](https://fonts.google.com/specimen/Merriweather+Sans?query=Merriweather+Sans)*
 
 ### 📅 Entrega
 
@@ -91,9 +91,10 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 
 #### 📅 Tarefas
 
-- Organizando os detalhes do projeto no readme.md
-- Uma branch main e uma developer
-- favicon
+- [x] Organizando os detalhes do projeto no readme.md
+- [x] Uma branch main e uma developer
+- [x] Favicon
+- [x] Cor do ícone
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="versão 1 do projeto" title="#Portfolio" src="./.github/template-2.jpg" width="400px">

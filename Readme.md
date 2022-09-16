@@ -95,6 +95,9 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 - [x] Uma branch main e uma developer
 - [x] Favicon
 - [x] Cor do ícone
+- [x] [Learn Responsive Design](https://web.dev/learn/design/)
+- [x] [Learn CSS](https://web.dev/learn/css/)
+
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="versão 1 do projeto" title="#Portfolio" src="./.github/tela-1.jpg" width="400px">

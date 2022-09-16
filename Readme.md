@@ -1,4 +1,10 @@
-## Portfolio
+<h4 align="center"> 
+	🚧 Portfolio 🚀
+</h4>
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="versão 1 do projeto" title="#Portfolio" src="./.github/template-2.jpg">
+</p>  
 
 ### 💻 Sobre o desafio
 
@@ -74,5 +80,15 @@ Com o CSS moderno, nós podemos poscionar, alinhar, ordenar e trbalhar co os ele
 ### 📅 Entrega
 
 Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
+
+#### 📅 Tarefas
+
+- Organizando os detalhes do projeto no readme.md
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="versão 1 do projeto" title="#Portfolio" src="./.github/template-1.jpg" width="400px">
+  <img alt="versão 1 do projeto" title="#Portfolio" src="./.github/template-2.jpg" width="400px">
+</p>  
+
 
 Feito com 💜 por Douglas A B Novato. 👋 Participe da [comunidade aberta](https://discord.gg/bacwY2gDCF)!

@@ -94,6 +94,7 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 - [x] Organizando os detalhes do projeto no readme.md
 - [x] Uma branch main e uma developer
 - [x] Favicon
+- [x] Cor do ícone
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="versão 1 do projeto" title="#Portfolio" src="./.github/template-2.jpg" width="400px">

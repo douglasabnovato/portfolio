@@ -17,28 +17,18 @@ body {
     background-color: var(--body-bg-color);
 }
 
-.container {
+.main {
+    color: var(--text-color);
+}
+
+.left,
+.rigth {
     display: flex;
     gap: 7px;
 }
 
-.teste-1 {
-    width: 100px;
-    height: 100px;
+.card {
+    width: 15rem;
+    height: 15rem;
     background-color: var(--bg-cards);
-    color: var(--text-color);
-}
-
-.teste-2 {
-    width: 100px;
-    height: 100px;
-    background-color: var(--bg-cards);
-    color: var(--text-color);
-}
-
-.teste-3 {
-    width: 100px;
-    height: 100px;
-    background-color: var(--bg-cards);
-    color: var(--text-color);
 }

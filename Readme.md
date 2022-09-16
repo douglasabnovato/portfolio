@@ -92,6 +92,8 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 #### 📅 Tarefas
 
 - Organizando os detalhes do projeto no readme.md
+- Uma branch main e uma developer
+- favicon
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="versão 1 do projeto" title="#Portfolio" src="./.github/template-2.jpg" width="400px">

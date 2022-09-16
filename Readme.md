@@ -3,7 +3,7 @@
 </h4>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#Portfolio" src="./.github/template-2.jpg">
+  <img alt="versão 1 do projeto" title="#Portfolio" src="./.github/tela-1.jpg">
 </p>  
 
 ### 💻 Sobre o desafio

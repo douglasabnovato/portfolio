@@ -51,13 +51,13 @@ Com o CSS moderno, nós podemos poscionar, alinhar, ordenar e trbalhar co os ele
 
 #### 🚀 Requisitos para o desafio 
 
-- [ ] Os cards dos projetos deverão ser clicáveis
-- [ ] Os cards dos posts deverão ser clicláveis
+- [x] Os cards dos projetos deverão ser clicáveis
+- [x] Os cards dos posts deverão ser clicláveis
 
 #### 🚀 Se desafie também
 
 - [ ] Tornando o design responsivo 
-- [ ] Consumir a API do Github 
+- [x] Consumir a API do Github 
 
 ### 🎨 Style Guide
 

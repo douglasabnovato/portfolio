@@ -1,28 +1,53 @@
 :root {
-    --body-bg-color: #22212C;
-    --text-color: #837E9F;
-    --bg-cards: #302F3D;
-    --bg-techs: #CB92B1;
+    --portfolio-body-bg-color: #22212C;
+    --portfolio-text-color: #837E9F;
+    --portfolio-text-color-black: #000000;
+    --portfolio-bg-cards: #302F3D;
+    --portfolio-bg-techs: #CB92B1;
 }
 
-* {
-    margin: 0;
-}
-
-body {
+main .home-section {
     font-family: 'Merriweather Sans', sans-serif;
-    background-color: var(--body-bg-color);
-    color: var(--text-color);
+    color: var(--portfolio-text-color);
 }
 
-.social-medias a,
-.social-medias a:link,
-.social-medias a:visited,
-.social-medias a:hover,
-.social-medias a:active {
-    margin-bottom: -5px;
-    color: var(--text-color);
-    text-decoration: none;
+.container {
+    display: flex;
+    gap: 0.30rem;
+
+    width: 100%;
+    max-width: 100vw;
+}
+
+.cards,
+.cards-title,
+.cards-posts {
+    background-color: var(--portfolio-bg-cards);
+    border-radius: 1em;
+}
+
+/* left */
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    gap: 0.35rem;
+
+    width: 100%;
+    max-width: 17.5vw;
+
+    margin-block-start: 1.1vh;
+    margin-inline-start: 0.5vw;
+}
+
+/* profile */
+
+.profile {
+    width: 100%;
+    max-width: 100vw;
+    height: auto;
 }
 
 .profile a,
@@ -30,115 +55,73 @@ body {
 .profile a:visited,
 .profile a:hover,
 .profile a:active {
-    color: var(--text-color);
+    color: var(--portfolio-text-color);
     text-decoration: none;
-}
-
-.box-techs a,
-.box-techs a:link,
-.box-techs a:visited,
-.box-techs a:hover,
-.box-techs a:active {
-    color: black;
-    text-decoration: none;
-}
-
-.project a,
-.project a:link,
-.project a:visited,
-.project a:hover,
-.project a:active {
-    color: var(--text-color);
-    text-decoration: none;
-}
-
-.container {
-    display: flex;
-    gap: 3.75rem;
-}
-
-.left {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-
-    gap: 2rem;
-
-    width: 40%;
-    max-width: 348px;
-
-    margin-top: 2.5rem;
-    margin-left: 2.5rem;
-}
-
-.cards {
-    background-color: var(--bg-cards);
-    border-radius: 1em;
-    width: 48.5%;
-}
-
-.cards-title {
-    background-color: var(--bg-cards);
-    border-radius: 1em;
-}
-
-.cards-posts {
-    background-color: var(--bg-cards);
-    border-radius: 1em;
-}
-
-.profile {
-    width: 348px;
-    height: 292px;
 }
 
 .profile .avatar {
-    margin-top: 32px;
+    margin-block-start: 2.5vh;
 }
 
 .profile .avatar img {
-    width: 128px;
-    height: 128px;
+    width: 100%;
+    max-width: 8vw;
+    height: auto;
     border-radius: 50%;
-
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+.profile .texts {
+    margin-block-end: 2vh;
 }
 
 .profile .texts .name {
-    margin-top: 30px;
-    font-size: 23px;
+    margin-block-start: 2vh;
+    font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
 }
 
 .profile .texts .job {
-    margin-top: 13px;
+    margin-block-start: 0.8vh;
     text-align: center;
 }
 
+/* fim - profile */
+
+/* links social-medias */
+
 .links {
-    width: 348px;
-    height: 348px;
+    width: 100%;
+    max-width: 100vw;
+    height: auto;
 }
 
 .links .social-medias {
-    margin-left: 40px;
-    margin-top: 30px;
+    margin-inline-start: 2vw;
+    margin-block-start: 2.5vh;
 }
 
 .links .social-media {
-    margin-bottom: 20px;
-    margin-right: 5px;
-    margin-top: 5px;
-    margin-left: 5px;
+    margin-block-end: 1.5vh;
+    margin-inline-end: 2vw;
     display: flex;
 }
 
+.social-medias a,
+.social-medias a:link,
+.social-medias a:visited,
+.social-medias a:hover,
+.social-medias a:active {
+    color: var(--portfolio-text-color);
+    text-decoration: none;
+}
+
 .links .icons {
-    margin-right: 28px;
-    margin-left: 5px;
+    margin-inline-end: 1vw;
+    margin-inline-start: 1vw;
     align-self: center;
 }
 
@@ -147,85 +130,113 @@ body {
 }
 
 .links .icons-local {
-    content: url(/assets/map-pin.svg);
+    content: url(./portfolio/assets/map-pin.svg);
 }
 
 .links .icons-sa {
-    content: url(/assets/briefcase.svg);
+    content: url(./portfolio/assets/briefcase.svg);
 }
 
 .links .icons-github {
-    content: url(/assets/github.svg);
+    content: url(./portfolio/assets/github.svg);
 }
 
 .links .icons-linkedin {
-    content: url(/assets/linkedin.svg);
+    content: url(./portfolio/assets/linkedin.svg);
 }
 
 .links .icons-twitter {
-    content: url(/assets/twitter.svg);
+    content: url(./portfolio/assets/twitter.svg);
 }
 
 .links .icons-globe {
-    content: url(/assets/globe.svg);
+    content: url(./portfolio/assets/globe.svg);
 }
 
 .links .icons-mail {
-    content: url(/assets/mail.svg);
+    content: url(./portfolio/assets/mail.svg);
 }
+
+/* fim - links social-medias */
+
+/* technologies */
 
 .technologies {
-    width: 348px;
-    height: 208px;
+    width: 100%;
+    max-width: 100vw;
+    height: auto;
+    color: var(--portfolio-text-color);
 }
 
-.technologies h2 {
-    margin-top: 30px;
-    margin-left: 20px;
+.technologies>h2 {
+    margin-inline-start: 2.5vw;
+    margin-block-start: 3.5vh;
 }
 
 .technologies .box-techs {
-    margin-left: 25px;
-    margin-top: 25px;
+    margin-inline-start: 1.7vw;
+    margin-inline-end: 2.5vw;
+    margin-block-start: 4vh;
+    margin-block-end: 1vw;
 }
 
-.technologies .techs {
+.technologies .box-techs .techs {
     display: flex;
-    gap: 1rem;
-    margin-top: 15px;
+    gap: 0.35rem;
+    margin-block-start: 1.9vh;
 }
 
 .technologies .tooltip {
-    background-color: var(--bg-techs);
-    color: #000000;
-    width: 90px;
-    font-size: 11px;
+    background-color: var(--portfolio-bg-techs);
+    color: var(--portfolio-text-color-black);
+
+    width: 100%;
+    max-width: 25vw;
+
+    border-radius: 1em;
+    font-size: 0.7rem;
     font-weight: bold;
     text-align: center;
-    border-radius: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 2px;
-    padding-right: 2px;
+
+    padding-block-start: 1vh;
+    padding-block-end: 1vh;
+    padding-inline-start: 0.5vw;
+    padding-inline-end: 0.5vw;
 }
+
+.box-techs a,
+.box-techs a:link,
+.box-techs a:visited,
+.box-techs a:hover,
+.box-techs a:active {
+    color: var(--portfolio-text-color-black);
+    text-decoration: none;
+}
+
+/* fim - technologies */
+
+/* experiences */
 
 .experiences {
-    width: 348px;
-    height: 369px;
+    width: 100%;
+    max-width: 100vw;
+    height: auto;
+    color: var(--portfolio-text-color);
 }
 
-.experiences>h2 {
-    margin-left: 20px;
-    margin-top: 30px;
+.experiences > h2 {
+    margin-inline-start: 2.5vw;
+    margin-block-start: 3.5vh;
 }
 
 .experiences-list {
-    margin-top: 20px;
-    margin-left: 27px;
+    margin-block-start: 2.5vh;
+    margin-block-end: 2vh;
+    margin-inline-start: 2.5vw;
 }
 
 .experiences-list .experience {
-    margin-bottom: 20px;
+    margin-block-end: 1.5vh;
 }
 
 .experiences-list .experience span {
@@ -234,27 +245,34 @@ body {
 
 .experiences-list .experience ul {
     list-style: none;
-    margin-left: -40px;
-    font-size: 12px;
+    margin-inline-start: 1.2vw;
+    font-size: 1rem;
 }
 
+/* fim - experiences */
+
+/* education */
+
 .education {
-    width: 348px;
-    height: 372px;
+    width: 100%;
+    max-width: 100vw;
+    height: auto;
+    color: var(--portfolio-text-color);
 }
 
 .education>h2 {
-    margin-left: 20px;
-    margin-top: 30px;
+    margin-inline-start: 2.5vw;
+    margin-block-start: 3.5vh;
 }
 
 .education-list {
-    margin-top: 20px;
-    margin-left: 27px;
+    margin-block-start: 2.5vh;
+    margin-block-end: 2vh;
+    margin-inline-start: 2.5vw;
 }
 
 .education-list .certification {
-    margin-bottom: 20px;
+    margin-block-end: 1.5vh;
 }
 
 .education-list .certification span {
@@ -263,85 +281,131 @@ body {
 
 .education-list .certification ul {
     list-style: none;
-    margin-left: -40px;
-    font-size: 12px;
+    margin-inline-start: 1.2vw;
+    font-size: 1rem;
 }
+
+/* fim - education */
+
+/* fim - left */
+
+/* right */
 
 .right {
     display: flex;
     flex-direction: column;
-    margin-top: 2.5rem;
+
+    gap: 0.35rem;
+
+    width: 100%;
+    max-width: 80vw;
+
+    margin-block-start: 1.1vh;
+    margin-inline-start: 0.5vw;
+
+    margin-inline-end: 1.5rem;
+    margin-block-end: 0.5rem;
 }
 
+/* my projects */
+
 .my-projects {
-    height: 86px;
-    margin-right: 3.5rem;
     position: relative;
-    margin-bottom: 1.5rem;
+    height: auto;
 }
 
 .my-projects .title-project {
     display: flex;
     justify-content: space-between;
+    color: var(--portfolio-text-color);
 }
 
-.my-projects div:nth-child(1) {
-    margin-left: 30px;
+.my-projects div:nth-child(1),
+.recent-posts div:nth-child(1) {
+    margin-inline-start: 1.5vw;
+    margin-inline-end: 1.5vw;
+    margin-block-start: 1.5vh;
+    margin-block-end: 1.5vh;
+
     font-weight: bold;
-    font-size: 26px;
-    margin-top: 11px;
+
+    font-size: 1.5rem;
 }
 
-.my-projects div:nth-child(2) {
-    margin-right: 30px;
+.my-projects div:nth-child(2),
+.recent-posts div:nth-child(2) {
+    margin-inline-start: 1.5vw;
+    margin-inline-end: 1.5vw;
+    margin-block-start: 1.5vh;
+    margin-block-end: 1.5vh;
+
     font-weight: lighter;
-    font-size: 18px;
-    margin-top: 12px;
+
+    font-size: 1.3rem;
 }
+
+/* the end - my projects */
+
+/* Box Projects - Construído no js */
 
 .box-projects {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-    margin-right: 3.5rem;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(19em, 1fr));
 }
 
+
 .box-projects .project {
-    margin-top: 0.5rem;
+    margin-block-start: 0.5vh;
+    margin-inline-end: 0.5vw;
+}
+
+.project a,
+.project a:link,
+.project a:visited,
+.project a:hover,
+.project a:active {
+    color: var(--portfolio-text-color);
+    text-decoration: none;
 }
 
 .box-projects .project .fragment {
-    margin-top: 2rem;
-    margin-right: 3.5rem;
-    margin-bottom: 1rem;
-    margin-left: 3rem;
+    margin-block-start: 2.5vh;
+    margin-block-end: 1.5vh;
+    margin-inline-start: 1.5vw;
+    margin-inline-end: 2.5vw;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction: column;
+    align-content: space-between;
+
+    justify-content: space-between;
 }
 
 .box-projects .project .title-project {
-    margin-bottom: 13px;
+    margin-block-end: 0.5vh;
 }
 
 .project .title-project span:nth-child(2) {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.3rem;
 }
 
 .project .title-project .icons-folder {
-    content: url(/assets/folder.svg);
-    margin-right: 6px;
+    content: url(./portfolio/assets/folder.svg);
+    margin-inline-end: 0.9vw;
 }
 
 .project .description-project {
-    margin-top: 20px;
-    margin-bottom: 13px;
+    margin-block-start: 2.6vh;
+    margin-block-end: 2.4vh;
 }
 
 .project .details-project {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 13px;
-    margin-top: 20px;
+    margin-block-end: 0.5vh;
 }
 
 .project .details-project .stars-branches {
@@ -350,31 +414,34 @@ body {
 }
 
 .project .details-project .icons-star {
-    content: url(/assets/star.svg);
-    margin-right: 6px;
+    content: url(./portfolio/assets/star.svg);
+    margin-inline-end: 0.5vw;
 }
 
 .project .details-project .icons-gitbranch {
-    content: url(/assets/git-branch.svg);
-    margin-left: 12px;
-    margin-right: 6px;
+    content: url(./portfolio/assets/git-branch.svg);
+    margin-inline-start: 1.5vw;
+    margin-inline-end: 0.5vw;
 }
 
 .project .details-project .icons-languages {
-    content: url(/assets/ellipse.svg);
-    margin-right: 6px;
+    content: url(./portfolio/assets/ellipse.svg);
+    margin-inline-end: 0.5vw;
 }
 
 .project .details-project span:nth-child(2) {
     font-weight: lighter;
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 
+/* fim - Box Projects */
+
+/* Recent Posts */
+
 .recent-posts {
-    height: 86px;
-    margin-top: 2.5rem;
-    margin-right: 3.5rem;
     position: relative;
+    height: auto;
+    color: var(--portfolio-text-color);
 }
 
 .recent-posts .title-recent-posts {
@@ -382,24 +449,13 @@ body {
     justify-content: space-between;
 }
 
-.recent-posts div:nth-child(1) {
-    margin-left: 30px;
-    font-weight: bold;
-    font-size: 26px;
-    margin-top: 11px;
-}
+/* The end - Recent posts */
+
+/* Box Posts */
 
 .box-posts {
     display: flex;
     flex-direction: column;
-    margin-top: 2.5rem;
-    margin-right: 3.5rem;
-}
-
-.post {
-    display: flex;
-    margin-bottom: 2.5rem;
-    height: 201px;
 }
 
 .box-posts a,
@@ -407,68 +463,127 @@ body {
 .box-posts a:visited,
 .box-posts a:hover,
 .box-posts a:active {
-    color: var(--text-color);
+    color: var(--portfolio-text-color);
     text-decoration: none;
 }
 
+.post {
+    display: flex;
+    margin-block-end: 0.5rem;
+}
+
 .post .post-avatar {
-    margin-top: 32px;
-    margin-left: 30px;
-    margin-right: 20px;
+    margin-inline-start: 3.5vw;
+    margin-inline-end: 3.5vw;
+    margin-block-start: 3.5vh;
+    margin-block-end: 3.5vh;
 }
 
 .post .post-avatar img {
-    width: 128px;
-    height: 128px;
+    width: 100%;
+    max-width: 8vw;
+
+    height: auto;
+
     border-radius: 50%;
+    display: block;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
 }
 
 .post .box-post-right {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-block-end: 2vh;
 }
 
 .post .post-title {
-    margin-top: 7px;
+    margin-block-start: 2vh;
 }
 
 .post .post-title div:nth-child(1) {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.4rem;
 }
 
 .post .post-title div:nth-child(2) {
-    margin-top: 8px;
-    font-size: 14px;
+    margin-block-start: 0vh;
+    font-size: 0.8rem;
 }
 
 .post .post-details {
-    margin-top: -5px;
+    margin-block-start: 1.8vh;
 }
 
 .post .post-details div:nth-child(1) {
-    font-size: 16px;
+    font-size: 1.1rem;
 }
 
 .post .post-details div:nth-child(2) {
-    margin-top: 8px;
+    margin-block-start: 0vh;
     display: flex;
     justify-content: space-between;
-    font-size: 14px;
+    font-size: 0.8rem;
 }
 
 .post .post-details div:nth-child(2) span {
-    margin-right: 10px;
+    margin-inline-end: 0.6vw;
 }
 
+/* The end - Box Posts */
+
+/* The end - right */
+
+/* Footer */
 .footer {
+    position: relative;
+
     text-align: center;
-    height: 58px;
-    position: relative
+
+    height: auto;
+    width: auto;
 }
 
 .footer span {
     position: absolute;
     top: 35%;
+}
+
+/* The end - Footer */
+
+/* Left vai para o topo com 3 colunas e 2 linhas */
+/* Left passa a se ajustar conforme o sidebar lateral */
+/* Right segue se ajustando */
+
+@media only screen and (max-width: 1277px) {
+    
+}
+
+/* Sidebar vai para o topo sempre open */
+/* Left passa a se ajustar*/
+/* Right segue se ajustando */
+@media only screen and (max-width: 640px) {
+    
+}
+
+
+@media only screen and (max-width: 420px) {
+    
+    main .container {
+        display: grid;
+        position:relative;
+        width: 100%;
+        max-width: 100vw;
+    }
+
+    main .container section.left{
+        width: 100%;
+        max-width: 100vw;
+    }
+
+    main .container section.right{
+        width: 100%;
+        max-width: 100vw;
+    }
 }

@@ -98,9 +98,17 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 - [x] [Learn Responsive Design](https://web.dev/learn/design/)
 - [x] [Learn CSS](https://web.dev/learn/css/)
 
+#### 📅 Telas
+
+- Desktop
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="versão 1 do projeto" title="#Portfolio" src="./.github/tela-1.jpg" width="400px">
+</p>  
+
+- Mobile
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="versão 1 do projeto" title="#Portfolio" src="./.github/tela-2.jpg" height="400px">
 </p>  
 

@@ -17,7 +17,7 @@ Neste desafio você poderá criar uma página web para que seja seu portfolio e 
 
 #### 💻 Como começar?
 
-1 - Use o link do Figma como base para o projeto. Também disponibilizamos para download todos os assets necessários (imagens e ícones), para fazer o download basta clicar no link acima.  
+1 - Use o link do [Figma](https://www.figma.com/file/CGGQ00BVKb28kaSLQKgrQl/DD-%2F-Portfolio-(Copy)?node-id=3%3A2) como base para o projeto. Também disponibilizamos para download todos os assets necessários (imagens e ícones), para fazer o download basta clicar no link acima.  
 
 2 - Leia com atenção todas as instruções do desafio.
 

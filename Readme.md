@@ -97,5 +97,6 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
   <img alt="versão 1 do projeto" title="#Portfolio" src="./.github/template-2.jpg" width="400px">
 </p>  
 
-
-Feito com 💜 por Douglas A B Novato. 👋 Participe da [comunidade aberta](https://discord.gg/bacwY2gDCF)!
+Feito com ❤️ por Douglas A B Novato. 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/)
+ 
+Fonte do projeto na [Rocketseat](https://www.rocketseat.com.br/). 👋 Participe da [comunidade aberta](https://discord.gg/bacwY2gDCF)!

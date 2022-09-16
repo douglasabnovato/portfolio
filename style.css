@@ -1,0 +1,44 @@
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Merriweather Sans;
+    font-weight: 700;
+    background-color: var(--body-bg-color);
+}
+
+.container {
+    display: flex;
+    gap: 7px;
+}
+
+.teste-1 {
+    width: 100px;
+    height: 100px;
+    background-color: var(--bg-cards);
+    color: var(--text-color);
+}
+
+.teste-2 {
+    width: 100px;
+    height: 100px;
+    background-color: var(--bg-cards);
+    color: var(--text-color);
+}
+
+.teste-3 {
+    width: 100px;
+    height: 100px;
+    background-color: var(--bg-cards);
+    color: var(--text-color);
+}
